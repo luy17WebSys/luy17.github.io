@@ -1,0 +1,179 @@
+/* start by removing all margin and padding for consistency */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', Arial;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #454545;
+  background-color: #fefefe;
+}
+/* centering the header and removing margins */
+header {
+  text-align: center;
+  padding-top: 1em;
+}
+footer {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+h1, h2 {
+  font-family: 'Roboto Slab', Georgia;
+}
+
+/* make links less ugly */
+a {
+  color: #45b4a2;
+}
+a:visited {
+  color: #268071;
+}
+
+/* standardize images */
+img {
+  width: 75%;
+  height: auto;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+.main-page header {
+  background-color: #505050;
+  color: #c8641e;
+}
+.main-page main {
+  padding: 1em 2em;
+}
+.main-page footer {
+  background-color: #505050;
+  color: #fefefe;
+  padding: 0.5em;
+}
+
+.team-details {
+  padding: 1em 0;
+  text-align: center;
+  white-space: nowrap;
+}
+.team-details li {
+  display: inline;
+  list-style: none;
+  padding: 0 1em;
+  border-right: 1px solid #45b4a2;
+}
+/* list items displayed inline in block format
+.team-details ul > li {
+  
+} */
+/*no border on the last element*/
+.team-details ul > li:last-child {
+  border-right: none;
+}
+
+.team-members {
+  text-align: center;
+  white-space: nowrap;
+}
+.team-members h2 {
+  margin: 0.5em 0;
+}
+.team-members li {
+  display: inline;
+  list-style: none;
+  margin: 0 0.5em 0;
+}
+
+/* make team member profile images small and round */
+.team-members img {
+  width: 100px;
+  height: auto;
+  border-radius: 35%;
+}
+
+/* more resume specific CSS goes here */
+body.resume {
+  margin: 0.5in;
+}
+
+.resume h2 {
+  clear: left;
+  margin: 1em 0 0 0;
+  padding: 0;
+}
+
+.resume h3 {
+  margin: 0.25em 0 0em 0;
+}
+
+.resume h4 {
+  margin: 0.25em 0 .25em 0;
+}
+
+.resume li {
+  list-style-position: inside;
+}
+
+ul#resume-info {
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  margin: 2em 0em;
+  padding: 4px 0 4px 0;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#resume-info li {
+  display: inline;
+  list-style: none;
+  margin: 0 0.25em 0 0.25em;
+  color: #666666;
+}
+
+.resume hr.dashed {
+  border:none;
+  border-top: 1px dashed #454545;
+  margin-top: 0.5em;
+}
+
+.resume img {
+  float: right;
+  width: 100px;
+  height: auto;
+  border-radius: 35%;
+}
+
+/* make links less ugly, different colors for resume */
+.resume a {
+  color: #666666;
+  text-decoration: none;
+}
+
+.resume a:visited {
+  color: #666666;
+} 
+
+/*CSS for my (Yasmine's) resume*/
+.yasmine-body {
+  width: fit-content;
+  text-align: center;
+  padding: 10px;
+  border: 3px solid #505050;
+  align-self: center;
+}
+
+.yasmine-body h2{
+  color: #666666;
+}
+
+.shrink {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
